@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Yage", "viewserver\viewserver.vcxproj", "{80160A27-D651-4D56-ADA1-90DF41AC64C7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viewserver", "viewserver\viewserver.vcxproj", "{80160A27-D651-4D56-ADA1-90DF41AC64C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,8 +18,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {875956E8-F68C-41BB-B3BD-43265C8B1463}
 	EndGlobalSection
 EndGlobal
