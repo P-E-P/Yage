@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d6dd72ff-2b99-4760-b1df-29143b179b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{44b8d69a-abee-4708-a2b3-5c3c1d82627f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity">
+      <UniqueIdentifier>{6e5b21de-4a7a-45b0-a44c-8a5cd00a5952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity\mob">
+      <UniqueIdentifier>{4e25d6e9-c08a-4420-8234-4ef70fcdf6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{6da7ed01-d331-4446-9e0f-2ce09a6ba02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\customs">
+      <UniqueIdentifier>{abd4beea-c666-4d9b-ae25-a0b5bf7177a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{ec5647c0-d7d6-46e8-8d3d-e088f0f15314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\input">
+      <UniqueIdentifier>{ec0f85aa-2235-4eb1-8976-271e3c3ef62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\customs\models">
+      <UniqueIdentifier>{8897e478-f30a-4ecd-9a89-8b98ac63a0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\customs\skybox">
+      <UniqueIdentifier>{ee31ae63-ad79-4f4c-9d3e-3d21a2eca6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\customs\camera">
+      <UniqueIdentifier>{69b2f9df-91bc-4fcc-a490-ee7469d4cf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{3697c526-2443-449f-a4d8-d9e82f27112c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\render">
+      <UniqueIdentifier>{48e5e8c2-92b7-4210-b200-0915f7ca5ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\shaders">
+      <UniqueIdentifier>{f512eac9-37c8-4571-8794-e64d19e4416a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\customs\billboard">
+      <UniqueIdentifier>{cf5cd045-7625-4cef-b1d9-a3b4b0991e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\customs\shape">
+      <UniqueIdentifier>{a1d8671d-78b7-4cb4-9d95-e70d173cd762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\materials">
+      <UniqueIdentifier>{ba9e1d40-9c1a-4a82-bdf0-91524623a2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity\renderable">
+      <UniqueIdentifier>{195d5db9-b739-4f24-8dd4-8aa174778e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity\renderable\modelisable">
+      <UniqueIdentifier>{6c18f0d4-05f9-4558-8eb7-423a256b5443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entity\renderable\modelisable\texturable">
+      <UniqueIdentifier>{494d6fd5-d328-4cd9-9e4e-7bdaf7b62b11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entity.cpp">
+      <Filter>src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="mob.cpp">
+      <Filter>src\entity\mob</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DXproject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>src\graphics\render</Filter>
+    </ClCompile>
+    <ClCompile Include="sh_compiler.cpp">
+      <Filter>src\graphics\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="modelisable.cpp">
+      <Filter>src\entity\renderable\modelisable</Filter>
+    </ClCompile>
+    <ClCompile Include="texturable.cpp">
+      <Filter>src\entity\renderable\modelisable\texturable</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>src\customs</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>src\customs\skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>src\customs\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>src\customs\billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.cpp">
+      <Filter>src\customs\shape</Filter>
+    </ClCompile>
+    <ClCompile Include="circle_generator.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entity.h">
+      <Filter>src\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="mob.h">
+      <Filter>src\entity\mob</Filter>
+    </ClInclude>
+    <ClInclude Include="ground.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="constant_buffer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>src\graphics\render</Filter>
+    </ClInclude>
+    <ClInclude Include="sh_compiler.h">
+      <Filter>src\graphics\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="renderable.h">
+      <Filter>src\entity\renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="modelisable.h">
+      <Filter>src\entity\renderable\modelisable</Filter>
+    </ClInclude>
+    <ClInclude Include="texturable.h">
+      <Filter>src\entity\renderable\modelisable\texturable</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>src\customs</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>src\customs\skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>src\customs\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>src\customs\billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>src\customs\shape</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>src\graphics\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="circle_generator.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.fx">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
