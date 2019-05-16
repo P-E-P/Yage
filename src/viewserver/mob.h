@@ -14,6 +14,11 @@ private:
 	float unitPerSecNX, unitPerSecNY, unitPerSecNZ;
 	std::chrono::time_point<std::chrono::high_resolution_clock> lastTickTime;
 	std::chrono::duration<float> deltaTime;
+protected:
+	// Speed variables
+	XMFLOAT4X4 sPosition, sRotation, sScaling;
+	// Acceleration variables
+	XMFLOAT4X4 aPosition, aRotation, aScaling;
 public:
 	virtual void onTick() = 0;
 	void preTick();

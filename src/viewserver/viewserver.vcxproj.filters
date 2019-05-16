@@ -52,13 +52,13 @@
     <Filter Include="src\graphics\materials">
       <UniqueIdentifier>{ba9e1d40-9c1a-4a82-bdf0-91524623a2ba}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\entity\renderable">
+    <Filter Include="src\graphics\render\renderable">
       <UniqueIdentifier>{195d5db9-b739-4f24-8dd4-8aa174778e32}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\entity\renderable\modelisable">
+    <Filter Include="src\graphics\render\renderable\modelisable">
       <UniqueIdentifier>{6c18f0d4-05f9-4558-8eb7-423a256b5443}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\entity\renderable\modelisable\texturable">
+    <Filter Include="src\graphics\render\renderable\modelisable\texturable">
       <UniqueIdentifier>{494d6fd5-d328-4cd9-9e4e-7bdaf7b62b11}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -82,10 +82,10 @@
       <Filter>src\graphics\shaders</Filter>
     </ClCompile>
     <ClCompile Include="modelisable.cpp">
-      <Filter>src\entity\renderable\modelisable</Filter>
+      <Filter>src\graphics\render\renderable\modelisable</Filter>
     </ClCompile>
     <ClCompile Include="texturable.cpp">
-      <Filter>src\entity\renderable\modelisable\texturable</Filter>
+      <Filter>src\graphics\render\renderable\modelisable\texturable</Filter>
     </ClCompile>
     <ClCompile Include="scene.cpp">
       <Filter>src\scene</Filter>
@@ -138,13 +138,13 @@
       <Filter>src\graphics\shaders</Filter>
     </ClInclude>
     <ClInclude Include="renderable.h">
-      <Filter>src\entity\renderable</Filter>
+      <Filter>src\graphics\render\renderable</Filter>
     </ClInclude>
     <ClInclude Include="modelisable.h">
-      <Filter>src\entity\renderable\modelisable</Filter>
+      <Filter>src\graphics\render\renderable\modelisable</Filter>
     </ClInclude>
     <ClInclude Include="texturable.h">
-      <Filter>src\entity\renderable\modelisable\texturable</Filter>
+      <Filter>src\graphics\render\renderable\modelisable\texturable</Filter>
     </ClInclude>
     <ClInclude Include="scene.h">
       <Filter>src\scene</Filter>
