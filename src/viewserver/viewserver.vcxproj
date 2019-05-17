@@ -92,6 +92,7 @@
     <ClCompile Include="billboard.cpp" />
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="circle_generator.cpp" />
+    <ClCompile Include="console.cpp" />
     <ClCompile Include="DXproject.cpp" />
     <ClCompile Include="entity.cpp" />
     <ClCompile Include="keyboard.cpp" />
@@ -112,6 +113,7 @@
     <ClInclude Include="billboard.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="circle_generator.h" />
+    <ClInclude Include="console.h" />
     <ClInclude Include="constant_buffer.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="ground.h" />

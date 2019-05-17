@@ -2,9 +2,8 @@
 
 
 
-SceneManager::SceneManager(Scene* scene)
+SceneManager::SceneManager()
 {
-	scenes.push_back(scene);
 	index = 0;
 }
 
@@ -16,22 +15,28 @@ SceneManager::~SceneManager()
 
 void SceneManager::render()
 {
-	scenes[index]->render();
+	if(index < scenes.size())
+		scenes[index]->render();
 }
 
 void SceneManager::tick()
 {
-	scenes[index]->tick();
+	if(index < scenes.size())
+		scenes[index]->tick();
 }
 
 void SceneManager::discreteTick()
 {
-	scenes[index]->discreteTick();
+	if (index < scenes.size())
+		scenes[index]->discreteTick();
 }
 
 Scene* SceneManager::current() const
 {
-	return scenes[index];
+	if (index < scenes.size())
+		return scenes[index];
+	else
+		return NULL;
 }
 
 Scene* SceneManager::next()

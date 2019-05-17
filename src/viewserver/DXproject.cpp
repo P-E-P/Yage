@@ -275,6 +275,7 @@ HRESULT InitDevice()
 
 
 	renderer = new Renderer(g_pd3dDevice, VsConstData, MatConstData, g_pImmediateContext);
+	manager = new SceneManager();
 
 
 	// FIXME: This part doesn't seems right, have you inverted the view? You should not set negative value for camera...
@@ -286,7 +287,8 @@ HRESULT InitDevice()
 	Skybox* skybox = new Skybox(cam, L"my_skybox.jpg", renderer, rs_CCW, ds_off, rs_CW, ds_on);
 	Scene* scene = new Scene(skybox, cam);
 
-	manager = new SceneManager(scene);
+	manager->addScene(scene);
+
 
 	// Add objects to the scene
 	

@@ -10,7 +10,7 @@ private:
 	int index;
 	std::vector<Scene*> scenes;
 public:
-	SceneManager(Scene* scene);
+	SceneManager();
 	~SceneManager();
 	Scene* current() const;
 	Scene* next();

@@ -1,6 +1,6 @@
 #include "circle_generator.h"
 
-void GenerateCircle(SimpleVertex* vertices, int sides, float radius)
+void generateCircle(SimpleVertex* vertices, int sides, float radius)
 {
 	float PI = 3.14159265358979323846;
 	int index = 0;

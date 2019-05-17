@@ -2,4 +2,4 @@
 
 #include "ground.h"
 
-void GenerateCircle(SimpleVertex* vertices, int sides, float radius);
+void generateCircle(SimpleVertex* vertices, int sides, float radius);
