@@ -94,6 +94,7 @@
     <ClCompile Include="circle_generator.cpp" />
     <ClCompile Include="console.cpp" />
     <ClCompile Include="DXproject.cpp" />
+    <ClCompile Include="engine.cpp" />
     <ClCompile Include="entity.cpp" />
     <ClCompile Include="keyboard.cpp" />
     <ClCompile Include="load.cpp" />
@@ -115,6 +116,7 @@
     <ClInclude Include="circle_generator.h" />
     <ClInclude Include="console.h" />
     <ClInclude Include="constant_buffer.h" />
+    <ClInclude Include="engine.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="ground.h" />
     <ClInclude Include="keyboard.h" />

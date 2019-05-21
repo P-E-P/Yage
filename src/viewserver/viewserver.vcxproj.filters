@@ -132,6 +132,9 @@
     <ClCompile Include="console.cpp">
       <Filter>src\output</Filter>
     </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="entity.h">
@@ -199,6 +202,9 @@
     </ClInclude>
     <ClInclude Include="constant_buffer.h">
       <Filter>src\graphics\utils\constant_buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
